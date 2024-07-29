@@ -1,0 +1,83 @@
+.header {
+    background: linear-gradient(180deg, var(--gray-700) 93%, var(--gray-600) 93%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    flex-direction: column;
+    gap: 5.3rem;
+    padding-top: 7.2rem;
+}
+
+.appName {
+    color: var(--Blue, #4EA8DE);
+    font-size: 4rem;
+    font-weight: 900;
+
+    span {
+        font: inherit;
+        color: var(--PurpleDark, #5E60CE);
+    }
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+.form {
+    width: 100%;
+    max-width: 73.6rem;
+    height: 5.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+  }
+  
+  .input {
+    width: 100%;
+    max-width: 63.8rem;
+    border-radius: 0.8rem;
+    border: 1px solid var(--gray-700);
+    background: var(--gray-500);
+    padding: 1.6rem;
+    outline: none;
+    transition: .3s ease;
+    color: var(--gray-100);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 140%;
+  }
+  
+  .input:focus-within {
+    border-color: var(--purple-dark);
+  }
+  
+  .input::placeholder {
+    color: var(--gray-300);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 140%;
+  }
+  
+  .button {
+    border-radius: 0.8rem;
+    background: var(--blue-dark);
+    padding: 1.6rem;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    color: var(--gray-100);
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 140%;
+    transition: .3s ease;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background: var(--blue);
+  }

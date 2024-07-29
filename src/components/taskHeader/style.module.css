@@ -1,0 +1,36 @@
+.taskHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 73.6rem;
+  padding-top: 6.5rem;
+  margin: 0 auto;
+}
+
+.taskCreated {
+  color: var(--blue);
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.taskCreated span {
+  padding: 0.2rem 0.8rem;
+  color: var(--gray-200);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.taskCompleted {
+  color: var(--purple);
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.taskCompleted span {
+  padding: 0.2rem 0.8rem;
+  color: var(--gray-200);
+  font-size: 1.2rem;
+  font-weight: 700;
+
+}
