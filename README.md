@@ -11,9 +11,7 @@
 
 > This is a simple todo list application to ignite, a rocketseat course.
 
-### 🏠 [Homepage](https://todolist.vercel.app)
-
-### ✨ [Demo](https://todo-list.vercel.app)
+### ✨ [Demo](https://todo-list-lwalder.vercel.app)
 
 ## Install
 
