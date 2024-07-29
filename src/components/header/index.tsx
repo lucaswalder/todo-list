@@ -9,15 +9,13 @@ import { PlusCircle } from "@phosphor-icons/react";
 import { TaskProps } from '../task';
 
 interface HeaderTaskProps {
-    task: TaskProps[];
     handleAddTask: (newTask: TaskProps) => void;
   }
 
-const Header = ({ task, handleAddTask }: HeaderTaskProps) => {
+const Header = ({ handleAddTask }: HeaderTaskProps) => {
     const [createTask, setCreateTask] = useState<string>('');
   
     const handleNewTask = (event:ChangeEvent<HTMLInputElement>) => {
-      // event.target.setCustomValidity('')
       setCreateTask(event.target.value)
   }
   

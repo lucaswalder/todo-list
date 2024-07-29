@@ -39,7 +39,7 @@ const App = () => {
 
   return (
     <>
-    <Header task={task} handleAddTask={handleAddTask} />
+    <Header handleAddTask={handleAddTask} />
     <TaskHeader created={task.length} completed={handleCompletedTasks}/>
     <TaskContainer data={task} handleDeleteTask={handleDeleteTask} handleToogleTaskCompleted={handleToggleTaskCompleted}/>
     </>
