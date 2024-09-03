@@ -4,8 +4,8 @@
   <a href="#" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
-  <a href="https://twitter.com/lucaswalder\_dev" target="_blank">
-    <img alt="Twitter: lucaswalder\_dev" src="https://img.shields.io/twitter/follow/lucaswalder\_dev.svg?style=social" />
+  <a href="https://twitter.com/lucaswalder_dev" target="_blank">
+    <img alt="Twitter: lucaswalder_dev" src="https://img.shields.io/twitter/follow/lucaswalder_dev.svg?style=social" />
   </a>
 </p>
 
